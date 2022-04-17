@@ -10,21 +10,3 @@ body{
 	font-weight: 300;
 	font-size: 120px;
 }
-
-@media(max-width: 900px) {
-	.wrap{
-		max-width: 885px;
-	}
-}
-
-@media(max-width: 400px) {
-	.wrap{
-		max-width: 400px;
-	}
-}
-
-@media(max-width: 250px) {
-	.wrap{
-		max-width: 250px;
-	}
-}
