@@ -3,7 +3,7 @@ let color = document.getElementById('color');
 
 function watchClock() {
 	let time = new Date();
-	let h = (time.getHours() % 12).toString();
+	let h = time.getHours().toString();
 	let m = time.getMinutes().toString();
 	let s = time.getSeconds().toString();
 
